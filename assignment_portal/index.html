@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Assignment portal for Christian Peraza in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    <link rel="shortcut icon" href="images/christian_peraza_favicon.png">
+    <title>Course Assignment Portal</title>
+    <style>
+        body {
+            text-align: center;
+            margin: 0 auto;
+        }
+        #header_portal {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        #perfil {
+            border-radius: 50%;
+            width: 4%;
+            padding: 1%;
+        }
+        #title_header {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 1.5vw;
+            font-weight: normal;
+            color: #2d3436;
+        }
+        #first_line {
+            background-color: #b2bec3;
+            width: 100%;
+            height: 0.1vh;
+            border: 0;
+        }
+        #banner_section {
+            padding-top: 1.5%;
+        }
+        #banner_image {
+            border-radius: 1em;
+            width: 70%;
+        }
+        main {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin-bottom: 5%;
+        }
+        section {
+            list-style: none;
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 1%;
+            padding-bottom: 2%;
+        }
+        .list {
+            border: 1px solid #b2bec3;
+            width: 60%;
+            border-radius: 0.5em;
+            padding: 1%;
+            margin: 0.5%;
+            text-align: left;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        a {
+            background-color: #1e90ff;
+            color: white;
+            padding-left: 1%;
+            padding-right: 1%;
+            font-size: small;
+            border-radius: 0.5em;
+            text-decoration: none;
+        }
+        a:hover {
+            background-color: #5e17eb;
+        }
+        hr {
+            background-color: #b2bec3;
+            width: 70%;
+            height: 0.1vh;
+            border: 0;
+        }
+        #comment {
+            font-style: italic;
+            color: #2d3436;
+        }
+        footer {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: #5e17eb;
+            color: white;
+            padding: 5%;
+            font-weight: lighter;
+        }
+        #updated {
+            font-style: italic;
+            font-weight: lighter;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="header_portal">
+            <img id="perfil" src="images/christian_peraza.jpg" alt="Christian Peraza">
+            <h1 id="title_header">Christian P. Peraza</h1>
+        </div>
+        <hr id="first_line">
+        <div id="banner_section">
+            <img id="banner_image" src="images/assignment_portal_banner.png" alt="Web Frontend Development I" width="900">
+        </div>  
+    </header>
+    <main>
+        <section>
+            <div class="list">Lesson 01: Course Assignment Portal<a href="index.html"><img src="images/go_to_link.png" width="40"></a></div>
+            <div class="list">Lesson 02: <a><img src="images/go_to_link.png" width="40"></a></div>
+            <div class="list">Lesson 03: <a><img src="images/go_to_link.png" width="40"></a></div>
+            <div class="list">Lesson 04: <a><img src="images/go_to_link.png" width="40"></a></div>
+            <div class="list">Lesson 05: <a><img src="images/go_to_link.png" width="40"></a></div>
+            <div class="list">Lesson 06: <a><img src="images/go_to_link.png" width="40"></a></div>
+            <div class="list">Lesson 07: <a><img src="images/go_to_link.png" width="40"></a></div>
+            <div class="list">Lesson 08: <a><img src="images/go_to_link.png" width="40"></a></div>
+            <div class="list">Lesson 09: <a><img src="images/go_to_link.png" width="40"></a></div>
+            <div class="list">Lesson 10: <a><img src="images/go_to_link.png" width="40"></a></div>
+            <div class="list">Lesson 11: <a><img src="images/go_to_link.png" width="40"></a></div>
+            <div class="list">Lesson 12: <a><img src="images/go_to_link.png" width="40"></a></div>
+            <div class="list">Lesson 13: <a><img src="images/go_to_link.png" width="40"></a></div>
+            <div class="list">Lesson 14: <a><img src="images/go_to_link.png" width="40"></a></div>
+        </section>
+        <hr>
+        <p id="comment">Some lessons may need more than one activity/assignment link.</p>
+    </main>
+    <footer>
+        &#169 2023 | Christian P. Peraza | Venezuela
+        <p id="updated">Last Modified: <span id="lastmodified"></span></p>
+    </footer>
+    <script src="scripts/assignment_portal.js"></script>
+</body>
+</html>
